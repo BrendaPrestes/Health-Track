@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-size: 100%;
+}
+header {
+  position: fixed;
+  background: #22242a;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+.left_area h3 {
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+}
+.left_area span {
+  color: #91292a;
+}
+.sidebar {
+  background: #2f323a;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+}
+.sidebar .profile_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+.sidebar h4 {
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.sidebar a {
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 41px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+  font-size: 15px;
+}
+.sidebar a:hover {
+  background: #19b3d3;
+}
+.sidebar i {
+  padding-right: 10px;
+}
+label #sidebar_btn {
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  left: 250px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+label #sidebar_btn:hover {
+  color: #91292a;
+}
+#check:checked ~ .sidebar {
+  left: -190px;
+}
+#check:checked ~ .sidebar a span {
+  display: none;
+}
+#check:checked ~ .sidebar a {
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+.content {
+  margin-left: 250px;
+  background: url(fundo.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: 00.5s;
+}
+#check:checked ~ .content {
+  margin-left: 60px;
+}
+#check {
+  display: none;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about {
+  background-color: #0b0a0e;
+  color: #FFF;
+  align-items: center;
+  justify-content: left;  
+  float: left;
+  }
+
+.inner-about {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+    
+}
+.inner-about h4 {
+  margin: 0;
+  font-size: 15pt;
+  margin-bottom: -10pt;
+}
+table {
+  color:#FFF;
+}
+#table {
+  right: 50px;
+  height: auto;
+}
+
+#lista {
+  color: #91292a;
+  text-align: center;
+  width: 200px;
+}
+#div-tabela-peso {
+  width: 100%;
+  display: inline-block;
+  padding: 10px;;
+}
+
+#div-lista-peso {
+  padding: 10px;
+  margin: 30px 10px;
+  width: 45%;
+  background-color: #ebe99f; 
+  float: left;
+  display: block;
+}
+
+#div-tabela-IMC {
+  display: block;
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+#peso, #acao,
+ #data{
+   color:#0b0a0e;
+ }
