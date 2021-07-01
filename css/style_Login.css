@@ -152,5 +152,5 @@ form input[type='submit']:hover {
 }
 .create a {
   text-decoration: none;
-  font-size: 14px; /*aqui melhor usar rem ou px*/
+  font-size: 14px; 
 }
